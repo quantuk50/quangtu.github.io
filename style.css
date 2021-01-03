@@ -26,8 +26,7 @@ body {
 .input {
     position: absolute;
     top: 22px;
-    right: 668px;
-    font-size: 40px;
+    font-size: 35px;
     color:black;
     z-index: 222;
 }
