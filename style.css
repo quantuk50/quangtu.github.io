@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:aquamarine;
+}
+
+.container {
+    margin: 10px auto;
+    width: 200px;
+}
+
+/* Start screen */
+
+.screen {
+    background-color: white;
+    width: 100%;
+    height: 50px;   
+    position: relative;
+}
+
+
+.input {
+    position: absolute;
+    top: 22px;
+    right: 668px;
+    font-size: 40px;
+    color:black;
+    z-index: 222;
+}
+
+
+.keyboard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.item {
+    height: 50px;
+    outline: none;
+    border: 0.1px solid white;
+    background-color: rgb(206, 245, 243);
+}
+
+.item:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.item1 {
+    grid-column: 1/2 span;
+}
+.item1:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.item2:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.item18 {
+    grid-column: 3/2 span;
+}
+
+.item18:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
